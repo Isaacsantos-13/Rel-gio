@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+/* Contêiner para imagem + relógio */
+body {
+    position: relative;
+}
+
+/* Imagem ocupando o centro */
+img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Relógio centralizado em cima da imagem */
+#relogio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 60px;
+    color: #00eaff;
+    padding: 10px 20px;
+
+    text-shadow: 0 0 10px #00eaff,
+                 0 0 20px #00eaff,
+                 0 0 40px #00eaff;
+}
